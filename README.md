@@ -25,9 +25,9 @@ To develop a sentiment analysis model that can accurately classify text data fro
   The important part is to find the features from the data to make machine learning algorithms works. In this case, we have text. We need to convert this text into numbers that we can do calculations on. We use
   word frequencies. That is treating every document as a set of the words it contains. Our features will be the counts of each of these words.
 * Naive Bayes Classifers:
-  * MultinomialNB
+  * MultinomialNB:
     We use this as we have discrete features(word count).
-  * GaussianNB
+  * GaussianNB:
     Classification technique based on the probabilistic approach and Gaussian distribution
 
 
